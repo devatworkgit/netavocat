@@ -105,6 +105,7 @@
           </div>
           <div class="clear"></div>
         </nav><!-- end main-menu -->
+  <?php print render($page['lang_switch']); ?>
 
       </div>
 

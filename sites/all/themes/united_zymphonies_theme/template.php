@@ -12,6 +12,14 @@ function united_zymphonies_theme_preprocess_html(&$vars) {
   }
 }
 
+function block_render($module, $block_id) {
+  $block = block_load($module, $block_id);
+  $block_content = _block_render_blocks(array($block));
+  $build = _block_get_renderable_array($block_content);
+  $block_rendered = drupal_render($build);
+  return $block_rendered;
+}
+
 function united_zymphonies_theme_html_head_alter(&$head_elements) {
   $head_elements['system_meta_content_type']['#attributes'] = array(
     'charset' => 'utf-8'
