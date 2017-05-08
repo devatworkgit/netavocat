@@ -104,9 +104,12 @@
             ?>
           </div>
           <div class="clear"></div>
-        </nav><!-- end main-menu -->
-  <?php print render($page['lang_switch']); ?>
 
+        </nav><!-- end main-menu -->
+          <?php 
+            $lang_dropdown = lang_dropdown_block_view();
+            print render($lang_dropdown['content']);
+          ?>
       </div>
 
     <div class="clear"></div>
@@ -206,12 +209,13 @@
   
 </div>
 
-
-<div id="footer">
-  <div id="footer_wrapper">
    <?php if ($page['footer_wide']): ?>
       <?php print render($page['footer_wide']); ?>
    <?php endif; ?>
+<div id="footer">
+
+  <div id="footer_wrapper">
+
     <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_forth']): ?> 
       <div id="footer-area" class="clearfix">
         <?php if ($page['footer_first']): ?>
