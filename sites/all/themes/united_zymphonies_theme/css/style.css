@@ -1741,7 +1741,7 @@ div.warning{
   display: none;
 }
 
-.slider-title{
+.slider-title, .page-title{
   color: #990000;
   font-size: 30px;
   font-weight: bold;
