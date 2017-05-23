@@ -1741,6 +1741,14 @@ div.warning{
   display: none;
 }
 
+.slider-title{
+  color: #990000;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px grey;
+}
+
 /*--------------------------
     Color Scheme
 --------------------------*/
