@@ -76,7 +76,7 @@
   <div id="inner_header_wrapper">
 
     <header id="header" role="banner">
-
+<!-- 
       <div class="top_left">
 
         <?php if ($logo): ?>
@@ -92,7 +92,7 @@
           <div id="site-description"><?php print $site_slogan; ?></div>
         </h1>
       </div>
-
+-->
       <div class="top_right">
       
         <nav id="main-menu"  role="navigation">
@@ -110,12 +110,13 @@
             $lang_dropdown = lang_dropdown_block_view();
             print render($lang_dropdown['content']);
           ?>
-          
+<!--           
           <div id="logo_2" style="margin: 9px 0px 5px 0; float: right;">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
                &nbsp; <img  src="<?php print $logo; ?>"/>
             </a>  
           </div>
+-->          
       </div>
 
     <div class="clear"></div>
