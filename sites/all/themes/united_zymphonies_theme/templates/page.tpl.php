@@ -82,7 +82,7 @@
         <?php if ($logo): ?>
           <div id="logo">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-              <img src="<?php print $logo; ?>"/>
+              <img src="/sites/default/files/profit-logo.png "/>
             </a>
           </div>
         <?php endif; ?>
@@ -110,6 +110,12 @@
             $lang_dropdown = lang_dropdown_block_view();
             print render($lang_dropdown['content']);
           ?>
+          
+          <div id="logo">
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+                <img src="<?php print $logo; ?>"/>
+            </a>  
+          </div>
       </div>
 
     <div class="clear"></div>
