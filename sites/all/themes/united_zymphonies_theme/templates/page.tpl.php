@@ -113,7 +113,7 @@
           
           <div id="logo_2" style="margin: 9px 10px 5px 0; float: right;">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                <img  src="<?php print $logo; ?>"/>
+               &nbsp; <img  src="<?php print $logo; ?>"/>
             </a>  
           </div>
       </div>
