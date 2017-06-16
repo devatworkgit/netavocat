@@ -117,7 +117,7 @@
             </a>  
           </div>
 -->          
-          <a style="margin: 9px 0px 5px 0; float: right;" href="https://ro.linkedin.com/in/niculescu-cristina-b7223916" target="_blank" ><img src="/sites/default/files/linkedin.jpg" /></a>
+          <a style="margin: 25px 0px 5px 20px; float: right;" href="https://ro.linkedin.com/in/niculescu-cristina-b7223916" target="_blank" ><img src="/sites/default/files/linkedin.jpg" /></a>
 
       </div>
 
