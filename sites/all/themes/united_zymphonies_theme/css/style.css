@@ -389,12 +389,12 @@ b{ font-weight: bold; color: #333; }
   display: inline-block;
   zoom: 1;
   vertical-align: top;
-  font-size: 15px;
+  font-size: 19px;
   float: left;
 }
 
 #main-menu a {
-  padding: 29px 6px;
+  padding: 29px 15px;
   display: block;
   text-decoration: none;
   color: #666;
@@ -1325,7 +1325,7 @@ ol.search-results { padding-left: 0; }
 
 .search-results .search-snippet-info { padding-left: 0; }
 
-.top_right .region-search{ float: right; margin: 2% 0; }
+.top_right .region-search{ /*float: right; margin: 2% 0;*/ margin:0 auto; }
 
 .top_right .region-user-menu ul.menu { float: right; }
 
