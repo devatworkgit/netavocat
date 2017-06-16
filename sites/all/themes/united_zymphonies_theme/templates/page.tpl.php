@@ -117,6 +117,8 @@
             </a>  
           </div>
 -->          
+          <a href="https://ro.linkedin.com/in/niculescu-cristina-b7223916" target="_blank" ><img src="/sites/default/files/linkedin.jpg" /></a>
+
       </div>
 
     <div class="clear"></div>
