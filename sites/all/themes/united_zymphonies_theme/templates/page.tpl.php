@@ -82,7 +82,7 @@
         <?php if ($logo): ?>
           <div id="logo">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-              <img src="/sites/default/files/profit-logo.png "/>
+              <img style="width:80%;" src="/sites/default/files/profit-logo.png "/>
             </a>
           </div>
         <?php endif; ?>
@@ -111,9 +111,9 @@
             print render($lang_dropdown['content']);
           ?>
           
-          <div id="logo_2" style="margin: 9px 10px 5px 0;">
+          <div id="logo_2" style="margin: 9px 10px 5px 0; float: right;">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                <img src="<?php print $logo; ?>"/>
+                <img style="width:80%;" src="<?php print $logo; ?>"/>
             </a>  
           </div>
       </div>
