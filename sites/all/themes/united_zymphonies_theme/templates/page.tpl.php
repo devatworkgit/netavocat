@@ -111,7 +111,7 @@
             print render($lang_dropdown['content']);
           ?>
           
-          <div id="logo_2" style="margin: 9px 10px 5px 0; float: right;">
+          <div id="logo_2" style="margin: 9px 0px 5px 0; float: right;">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
                &nbsp; <img  src="<?php print $logo; ?>"/>
             </a>  
